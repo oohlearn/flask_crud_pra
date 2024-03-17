@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["oohlearn <learnooh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.17.2"
+bs4 = "^0.0.2"
+requests = "^2.31.0"
+webdriver-manager = "^4.0.1"
+flask = "^3.0.2"
+sqlalchemy = "^2.0.28"
+flask-sqlalchemy = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
